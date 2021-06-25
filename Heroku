@@ -2,6 +2,21 @@
 # Deploy with Heroku
 
 
+- 1. Login To Heroku On Terminal
+`
+heroku login
+`
+
+- 2. Add To Remote
+`
+heroku git:remote -a [name]
+`
+
+- 3. Push To Remote
+`
+git push heroku master
+`
+
 - Logging deployed server
 
 `
